@@ -73,9 +73,6 @@
 				inherit pkgs;
 				modules = [
 					./home.nix
-					{
-						programs.home-manager.news.enable = false;
-					}
 				];
 				extraSpecialArgs = {
 					inherit systemSettings;
