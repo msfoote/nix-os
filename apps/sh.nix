@@ -13,10 +13,8 @@ in
 		enable = true;
 		shellAliases = myAliases;
 		initExtra = "neofetch";
-		bashrcExtra = ''
-echo "This is a test"
-echo "Hello World!"
-		'';
+		# bashrcExtra = ''
+		# '';
 	};
 
 	programs.zsh = {
